@@ -10,7 +10,7 @@ A library for using the Mapbox API in Python
 
 <h2>routing</h2>
 All routing functions will take either list coordinate pairs (e.g. from distance.get_coords) or string place names.
-
+<br/>
 
 
 <b>distance(start, finish)</b>: returns the distance between two points in the preset preferred units. Optional third parameter is a string that denotes a mode of transit besides driving ('walking' or 'cycling')
