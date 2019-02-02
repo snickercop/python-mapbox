@@ -9,9 +9,7 @@ A library for using the Mapbox API in Python
 <b>get_coords(place_name)</b>: returns the coordinates of the given place_name as a list of form [longitude, latitude]
 
 <h2>routing</h2>
-All routing functions will take either list coordinate pairs (e.g. from distance.get_coords) or string place names.
-<br/>
-
+<p>All routing functions will take either list coordinate pairs (e.g. from distance.get_coords) or string place names.</p>
 
 <b>distance(start, finish)</b>: returns the distance between two points in the preset preferred units. Optional third parameter is a string that denotes a mode of transit besides driving ('walking' or 'cycling')
 
